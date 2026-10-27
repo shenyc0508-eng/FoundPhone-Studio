@@ -1,0 +1,240 @@
+.growth-launch {
+  position: absolute;
+  z-index: 53;
+  bottom: 155px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid #ffffffb0;
+  border-radius: 30px;
+  padding: 9px 14px;
+  background: #faf9f0f2;
+  color: #344b42;
+  box-shadow: 0 3px 20px #1b34232b;
+  font-size: 11px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.growth-sheet {
+  position: absolute;
+  z-index: 58;
+  inset: 57px 8px 23px;
+  display: flex;
+  flex-direction: column;
+  background: #fcfaf4;
+  color: #343e38;
+  border: 1px solid #ebe7db;
+  border-radius: 25px;
+  box-shadow: 0 12px 60px #10231f55;
+  overflow: hidden;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+}
+.growth-sheet header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 20px 14px;
+}
+.growth-sheet header small {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: #738175;
+}
+.growth-sheet h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 6px 0 0;
+  letter-spacing: 1px;
+}
+.growth-sheet header button {
+  background: #eeeee6;
+  border: 0;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  color: #566456;
+  cursor: pointer;
+}
+.growth-sheet nav {
+  display: flex;
+  gap: 6px;
+  padding: 0 20px 13px;
+  border-bottom: 1px solid #e9e7dd;
+}
+.growth-sheet nav button {
+  flex: 1;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px;
+  background: transparent;
+  color: #7a8179;
+  font-size: 12px;
+  cursor: pointer;
+}
+.growth-sheet nav button[aria-pressed="true"] {
+  background: #e7ecdf;
+  color: #425a45;
+  font-weight: 600;
+}
+.growth-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 16px 20px 20px;
+  overscroll-behavior: contain;
+}
+.growth-date {
+  font-size: 10px;
+  color: #798574;
+  letter-spacing: 1px;
+  margin: 0 0 16px;
+}
+.growth-feedback {
+  padding: 12px 14px;
+  border-left: 2px solid #b4c4a3;
+  background: #f0f2e9;
+  border-radius: 0 10px 10px 0;
+  margin: 0 0 21px;
+}
+.growth-feedback small {
+  font-size: 9px;
+  color: #718266;
+  letter-spacing: 1px;
+}
+.growth-feedback p {
+  font-size: 12px;
+  line-height: 1.9;
+  margin: 6px 0 0;
+}
+.growth-sheet h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 11px;
+}
+.growth-scene {
+  font-size: 13px;
+  line-height: 2;
+  white-space: pre-line;
+  margin: 0 0 20px;
+}
+.growth-options {
+  display: grid;
+  gap: 9px;
+}
+.growth-options button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  border: 1px solid #dce3d4;
+  border-radius: 12px;
+  background: #edf1e5;
+  color: #3f5541;
+  padding: 14px;
+  font-size: 12px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+.growth-options button:active {
+  background: #dce7cd;
+}
+.growth-hint {
+  font-size: 10px;
+  line-height: 1.9;
+  color: #858d7e;
+  margin: 18px 0 0;
+}
+.growth-sheet footer {
+  text-align: center;
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: #8b9284;
+  padding: 11px;
+  border-top: 1px solid #eeebe1;
+}
+.growth-stats {
+  display: grid;
+  gap: 20px;
+}
+.growth-stats span {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.growth-stats b {
+  font-size: 14px;
+  font-weight: 500;
+}
+.growth-stats b small {
+  font-size: 9px;
+  color: #92988d;
+}
+.growth-sheet progress {
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin-top: 8px;
+  border: 0;
+  border-radius: 4px;
+  accent-color: #859b72;
+  background: #e8eadd;
+}
+.growth-sheet progress::-webkit-progress-bar {
+  background: #e8eadd;
+  border-radius: 4px;
+}
+.growth-sheet progress::-webkit-progress-value {
+  background: #859b72;
+  border-radius: 4px;
+}
+.growth-bond {
+  padding: 14px 0;
+  border-bottom: 1px solid #e9e8df;
+}
+.growth-bond strong {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+}
+.growth-bond strong span {
+  font-size: 10px;
+  color: #7b8c72;
+}
+.growth-bond p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #7c8279;
+}
+.growth-reset {
+  margin-top: 30px;
+  background: transparent;
+  border: 0;
+  color: #897b71;
+  font-size: 11px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.growth-reset-confirm p {
+  font-size: 12px;
+  line-height: 1.8;
+}
+.growth-reset-confirm button {
+  border: 1px solid #dce3d4;
+  background: #edf1e5;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 11px;
+  color: #435641;
+}
+.growth-sheet button:focus-visible {
+  outline: 2px solid #728969;
+  outline-offset: 2px;
+}

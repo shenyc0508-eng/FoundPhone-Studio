@@ -20,4 +20,6 @@
 
 媒体仅支持safeMedia允许的内嵌data URL格式。禁止HTML/JS脚本；富文本为安全结构化JSON。作品脚本是公开静态数据，谜题密码不属于安全保密机制。
 
+养成脚本可使用 `increment` 动作：`key` 为已有数值变量，`value` 为数值增量。结果限制在 0–100；非数值输入不生效，数值变更沿用 `variable` 事件监听。`variable` 赋值仍保持原有行为。此扩展需要本 Fork 的运行时。设置 `variables.growth=true` 可显示今日安排、属性和成员默契面板；其他脚本保持原有选择界面。
+
 默认空白模板：stories/blank/story.json。引擎回归样例位于tests/fixtures/story-example，不作为内置作品。自然语言原稿：tests/fixtures/story-example/STORY.md。只改故事数据就能改变手机内容。

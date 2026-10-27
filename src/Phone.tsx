@@ -1,4 +1,5 @@
 import { StatusGlyph } from "./ios/StatusGlyph";
+import { GrowthPanel } from "./GrowthPanel";
 import { SocialDetail, socialDetailApps } from "./skins/SocialDetails";
 import { NativeCalculator } from "./ios/Calculator";
 import { HomeLauncher } from "./launcher/HomeLauncher";
@@ -577,37 +578,54 @@ function PhoneRuntime({
               )}
             </div>
           )}
-          {!creator && s.choices.length > 0 && !locked && (
-            <div className="story-overlay">
-              <span className="eyebrow">故事来到一个岔路口</span>
-              <h3>你会如何选择？</h3>
-              {s.choices.map((c) => (
+          {!creator && s.variables.growth === true && !locked && !app && (
+            <GrowthPanel
+              state={s}
+              onChoose={(id) => update(choose(work, s, id))}
+              onRestart={() => {
+                update(dispatch(work, initialRuntime(work), "start"));
+                setApp("");
+                setLocked(true);
+              }}
+            />
+          )}
+          {!creator &&
+            s.variables.growth !== true &&
+            s.choices.length > 0 &&
+            !locked && (
+              <div className="story-overlay">
+                <span className="eyebrow">故事来到一个岔路口</span>
+                <h3>你会如何选择？</h3>
+                {s.choices.map((c) => (
+                  <button
+                    key={c.target}
+                    onClick={() => update(choose(work, s, c.target))}
+                  >
+                    {c.label}
+                    <ArrowUp size={15} />
+                  </button>
+                ))}
+              </div>
+            )}
+          {!creator &&
+            s.variables.growth !== true &&
+            s.endings.length > 0 &&
+            !locked && (
+              <div className="story-overlay ending">
+                <span className="eyebrow">ENDING · {s.endings.length}</span>
+                <h2>故事在这里停泊。</h2>
+                <p>{s.endings[s.endings.length - 1]}</p>
                 <button
-                  key={c.target}
-                  onClick={() => update(choose(work, s, c.target))}
+                  onClick={() => {
+                    update(dispatch(work, initialRuntime(work), "start"));
+                    setApp("");
+                    setLocked(true);
+                  }}
                 >
-                  {c.label}
-                  <ArrowUp size={15} />
+                  重新开始
                 </button>
-              ))}
-            </div>
-          )}
-          {!creator && s.endings.length > 0 && !locked && (
-            <div className="story-overlay ending">
-              <span className="eyebrow">ENDING · {s.endings.length}</span>
-              <h2>故事在这里停泊。</h2>
-              <p>{s.endings[s.endings.length - 1]}</p>
-              <button
-                onClick={() => {
-                  update(dispatch(work, initialRuntime(work), "start"));
-                  setApp("");
-                  setLocked(true);
-                }}
-              >
-                重新开始
-              </button>
-            </div>
-          )}
+              </div>
+            )}
           {!creator && s.incomingCall && (
             <div className="incoming-call-screen">
               <small>

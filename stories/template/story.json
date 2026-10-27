@@ -1,699 +1,3827 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "afterglow-debut",
+  "title": "微光练习簿",
+  "description": "小公司新人女团 AFTERGLOW 的出道生活。第一章：还没有应援声的时候。",
+  "revision": 4,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
-    "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "owner": "沈知予",
+    "date": "2026-05-08",
+    "time": "08:10",
+    "passcode": "0508",
+    "wallpaper": "sage",
+    "theme": "light",
+    "notifications": true
   },
   "installedApps": [
-    "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    "phone",
-    "messages",
-    "contacts",
-    "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
-    "safari",
+    "kakao",
     "notes",
     "calendar",
-    "mail",
-    "clock",
-    "reminders",
-    "files",
-    "music",
-    "maps",
-    "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
-    "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
     "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "contacts",
+    "phone",
+    "messages",
+    "photos",
+    "music",
+    "clock",
+    "settings",
+    "appstore",
+    "camera",
+    "safari"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
-      "phone": "",
-      "bio": "这是一条测试内容。"
+      "id": "hae",
+      "name": "韩海温",
+      "bio": "队长 · 习惯提前到。不会说漂亮话，但总记得谁还没吃饭。"
+    },
+    {
+      "id": "yun",
+      "name": "白允书",
+      "bio": "主唱 · 听觉很敏锐。慢热，说话有时过于直接。"
+    },
+    {
+      "id": "seo",
+      "name": "姜瑞安",
+      "bio": "主舞 · 练习室里的严师，宿舍里总找不到钥匙的人。"
+    },
+    {
+      "id": "rin",
+      "name": "林多凛",
+      "bio": "综艺与舞台担当 · 最擅长让冷场消失，也会有安静的时候。"
+    },
+    {
+      "id": "manager",
+      "name": "郑敏真",
+      "bio": "经纪人 · 星屿娱乐。行程、接送、对接，有时还得兼任摄影师。"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
+      "id": "team-chat",
       "app": "kakao",
-      "title": "测试会话",
+      "title": "AFTERGLOW（5）",
       "participants": [
         "owner",
-        "test-contact"
+        "hae",
+        "yun",
+        "seo",
+        "rin"
       ],
       "messages": [
         {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "welcome-hae",
+          "senderId": "hae",
+          "body": "谁的充电线还插在客厅？我收到电视柜上了。早餐在桌上，自己挑。",
+          "hidden": false,
+          "time": "2026-05-08 08:10"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "welcome-rin",
+          "senderId": "rin",
+          "body": "昨天舞台回放我看了五遍。不是自恋，在找我耳环掉在哪一秒。",
+          "hidden": false,
+          "time": "2026-05-08 08:10"
+        },
+        {
+          "id": "welcome-yun",
+          "senderId": "yun",
+          "body": "第六遍找到了吗。",
+          "hidden": false,
+          "time": "2026-05-08 08:10"
+        },
+        {
+          "id": "welcome-seo",
+          "senderId": "seo",
+          "body": "在我包里。你下台就塞给我了。",
+          "hidden": false,
+          "time": "2026-05-08 08:10"
+        },
+        {
+          "id": "welcome-owner",
+          "senderId": "owner",
+          "body": "那今天第六遍可以认真看舞台了。",
+          "hidden": false,
+          "time": "2026-05-08 08:10"
+        }
+      ]
+    },
+    {
+      "id": "work-chat",
+      "app": "kakao",
+      "title": "敏真姐 · 工作",
+      "participants": [
+        "owner",
+        "manager"
+      ],
+      "messages": [
+        {
+          "id": "welcome-work",
+          "senderId": "manager",
+          "body": "知予，早。昨天正式出道，今天也照常上班。公司只有一间练习室，下午隔壁的制作人要借用，别跑空。安排在手机下方的「今日安排」里，先吃点东西。",
+          "hidden": false,
+          "time": "2026-05-08 08:10"
+        },
+        {
+          "id": "reply-3-0",
+          "senderId": "manager",
+          "body": "收到。今天的素材我存好了，剩下的事情我来处理。",
+          "hidden": true,
+          "time": "2026-05-09 12:00"
+        },
+        {
+          "id": "reply-5-1",
+          "senderId": "manager",
+          "body": "收到。今天的素材我存好了，剩下的事情我来处理。",
+          "hidden": true,
+          "time": "2026-05-09 22:00"
+        },
+        {
+          "id": "reply-7-0",
+          "senderId": "manager",
+          "body": "收到。今天的素材我存好了，剩下的事情我来处理。",
+          "hidden": true,
+          "time": "2026-05-10 17:00"
+        }
+      ]
+    },
+    {
+      "id": "chat-hae",
+      "app": "kakao",
+      "title": "韩海温",
+      "participants": [
+        "owner",
+        "hae"
+      ],
+      "messages": [
+        {
+          "id": "reply-0-2",
+          "senderId": "hae",
+          "body": "东西我先帮你收好了。今天辛苦，记得吃饭。",
+          "hidden": true,
+          "time": "2026-05-08 12:00"
+        },
+        {
+          "id": "reply-1-2",
+          "senderId": "hae",
+          "body": "东西我先帮你收好了。今天辛苦，记得吃饭。",
+          "hidden": true,
+          "time": "2026-05-08 17:00"
+        },
+        {
+          "id": "reply-2-1",
+          "senderId": "hae",
+          "body": "东西我先帮你收好了。今天辛苦，记得吃饭。",
+          "hidden": true,
+          "time": "2026-05-08 22:00"
+        },
+        {
+          "id": "reply-3-1",
+          "senderId": "hae",
+          "body": "东西我先帮你收好了。今天辛苦，记得吃饭。",
+          "hidden": true,
+          "time": "2026-05-09 12:00"
+        },
+        {
+          "id": "reply-4-2",
+          "senderId": "hae",
+          "body": "东西我先帮你收好了。今天辛苦，记得吃饭。",
+          "hidden": true,
+          "time": "2026-05-09 17:00"
+        },
+        {
+          "id": "reply-6-2",
+          "senderId": "hae",
+          "body": "东西我先帮你收好了。今天辛苦，记得吃饭。",
+          "hidden": true,
+          "time": "2026-05-10 12:00"
+        },
+        {
+          "id": "reply-7-1",
+          "senderId": "hae",
+          "body": "东西我先帮你收好了。今天辛苦，记得吃饭。",
+          "hidden": true,
+          "time": "2026-05-10 17:00"
+        },
+        {
+          "id": "callback-message-hae",
+          "senderId": "hae",
+          "body": "昨天的饭盒洗好了。在玄关，今天别空着肚子出门。",
+          "hidden": true,
+          "time": "2026-05-09 08:00"
+        }
+      ]
+    },
+    {
+      "id": "chat-yun",
+      "app": "kakao",
+      "title": "白允书",
+      "participants": [
+        "owner",
+        "yun"
+      ],
+      "messages": [
+        {
+          "id": "reply-0-0",
+          "senderId": "yun",
+          "body": "刚才那一段我记住了。下次再一起试试。",
+          "hidden": true,
+          "time": "2026-05-08 12:00"
+        },
+        {
+          "id": "reply-1-0",
+          "senderId": "yun",
+          "body": "刚才那一段我记住了。下次再一起试试。",
+          "hidden": true,
+          "time": "2026-05-08 17:00"
+        },
+        {
+          "id": "reply-4-0",
+          "senderId": "yun",
+          "body": "刚才那一段我记住了。下次再一起试试。",
+          "hidden": true,
+          "time": "2026-05-09 17:00"
+        },
+        {
+          "id": "reply-5-2",
+          "senderId": "yun",
+          "body": "刚才那一段我记住了。下次再一起试试。",
+          "hidden": true,
+          "time": "2026-05-09 22:00"
+        },
+        {
+          "id": "reply-6-1",
+          "senderId": "yun",
+          "body": "刚才那一段我记住了。下次再一起试试。",
+          "hidden": true,
+          "time": "2026-05-10 12:00"
+        },
+        {
+          "id": "reply-7-2",
+          "senderId": "yun",
+          "body": "刚才那一段我记住了。下次再一起试试。",
+          "hidden": true,
+          "time": "2026-05-10 17:00"
+        },
+        {
+          "id": "reply-8-1",
+          "senderId": "yun",
+          "body": "刚才那一段我记住了。下次再一起试试。",
+          "hidden": true,
+          "time": "2026-05-10 22:00"
+        },
+        {
+          "id": "callback-message-yun",
+          "senderId": "yun",
+          "body": "早上的面包我吃掉了。今天试录前，我们再对一下那句？",
+          "hidden": true,
+          "time": "2026-05-09 08:00"
+        }
+      ]
+    },
+    {
+      "id": "chat-seo",
+      "app": "kakao",
+      "title": "姜瑞安",
+      "participants": [
+        "owner",
+        "seo"
+      ],
+      "messages": [
+        {
+          "id": "reply-0-1",
+          "senderId": "seo",
+          "body": "刚才配合得不错。别忘了拉伸。",
+          "hidden": true,
+          "time": "2026-05-08 12:00"
+        },
+        {
+          "id": "reply-4-1",
+          "senderId": "seo",
+          "body": "刚才配合得不错。别忘了拉伸。",
+          "hidden": true,
+          "time": "2026-05-09 17:00"
+        },
+        {
+          "id": "reply-6-0",
+          "senderId": "seo",
+          "body": "刚才配合得不错。别忘了拉伸。",
+          "hidden": true,
+          "time": "2026-05-10 12:00"
+        },
+        {
+          "id": "reply-8-0",
+          "senderId": "seo",
+          "body": "刚才配合得不错。别忘了拉伸。",
+          "hidden": true,
+          "time": "2026-05-10 22:00"
+        },
+        {
+          "id": "callback-message-seo",
+          "senderId": "seo",
+          "body": "我把胶带留着了，等演出回来再贴一次。位置别自己偷偷改。",
+          "hidden": true,
+          "time": "2026-05-09 08:00"
+        }
+      ]
+    },
+    {
+      "id": "chat-rin",
+      "app": "kakao",
+      "title": "林多凛",
+      "participants": [
+        "owner",
+        "rin"
+      ],
+      "messages": [
+        {
+          "id": "reply-1-1",
+          "senderId": "rin",
+          "body": "我有偷偷记下来，今天也有一件好事情。",
+          "hidden": true,
+          "time": "2026-05-08 17:00"
+        },
+        {
+          "id": "reply-2-0",
+          "senderId": "rin",
+          "body": "我有偷偷记下来，今天也有一件好事情。",
+          "hidden": true,
+          "time": "2026-05-08 22:00"
+        },
+        {
+          "id": "reply-2-2",
+          "senderId": "rin",
+          "body": "我有偷偷记下来，今天也有一件好事情。",
+          "hidden": true,
+          "time": "2026-05-08 22:00"
+        },
+        {
+          "id": "reply-3-2",
+          "senderId": "rin",
+          "body": "我有偷偷记下来，今天也有一件好事情。",
+          "hidden": true,
+          "time": "2026-05-09 12:00"
+        },
+        {
+          "id": "reply-5-0",
+          "senderId": "rin",
+          "body": "我有偷偷记下来，今天也有一件好事情。",
+          "hidden": true,
+          "time": "2026-05-09 22:00"
+        },
+        {
+          "id": "reply-8-2",
+          "senderId": "rin",
+          "body": "我有偷偷记下来，今天也有一件好事情。",
+          "hidden": true,
+          "time": "2026-05-10 22:00"
         }
       ]
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "photos": [
-      {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "start-guide",
+        "title": "写给刚出道的自己",
+        "body": "我叫沈知予，AFTERGLOW 的第五位成员。星屿娱乐没有大楼，只有一层办公室、一间练习室和六个人共享的工作群。\n\n这是我的手机。密码 0508。\n\n点手机下方的「今日安排」推进生活，上午、下午、晚上各做一次选择。也可以先收起安排，看看 KakaoTalk、行程和队友留言。成长面板里能看到自己的状态。\n\n选择没有统一的标准答案。休息也会带来变化。进度自动保存在当前浏览器；刷新可以接着玩。第一章包含出道初期的三天，后面会继续写。"
+      },
+      {
+        "id": "company-note",
+        "title": "一些还没来得及习惯的小事",
+        "body": "团名 AFTERGLOW，余晖。\n公司：星屿娱乐，员工人数用两只手数得完。\n宿舍冰箱第二层放公用食物；红色饭盒是海温姐的；瑞安说她会洗碗，但最好提醒她。\n\n出道曲《Small Light》。第一天的直拍播放量：312。\n还没有固定的应援声。希望下次能听见。"
+      },
+      {
+        "id": "chapter-note-energy",
+        "title": "出道第三天 · 灯还亮着",
+        "body": "音乐响起后，你比彩排时更吃力，但听见队友在换气的空隙里接住了你。下台时海温把水递过来，敏真姐重新排了明天的练习量。今天没有把一切做好，可你没有被留在台上。回程的车里，你终于放心睡了一会儿。",
+        "hidden": true,
+        "time": "2026-05-10 22:30"
+      },
+      {
+        "id": "chapter-note-practice",
+        "title": "出道第三天 · 那半拍终于对上",
+        "body": "你在那个曾经总慢半拍的位置站稳了。转头时，瑞安已经在下一个点等你。台下有人喊出团名，声音不大，但五个人都听见了。视频回看时你发现，自己不再一直盯着地板。",
+        "hidden": true,
+        "time": "2026-05-10 22:30"
+      },
+      {
+        "id": "chapter-note-team",
+        "title": "出道第三天 · 有人叫出了你的名字",
+        "body": "舞台结束前，你抬头看见第一排的人朝你挥手。她叫的是你的名字。下台以后，多凛坚持说她也听见了，允书说让她先把麦摘了再激动。你们在回程路上用一份外卖庆祝了第二场演出。",
+        "hidden": true,
+        "time": "2026-05-10 22:30"
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
+        "id": "calendar-8",
+        "title": "自主练习 / 内容拍摄",
+        "body": "公司练习室 10:00–13:00 可用。下午借给制作人；营业素材由敏真姐用手机拍。",
+        "time": "2026-05-08 09:00",
+        "meta": {
+          "date": "2026-05-08"
+        }
+      },
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
+        "id": "calendar-9",
+        "title": "电台试录 / 公司直播",
+        "body": "电台不是正式通告，是合作节目的试录。晚上 19:00，公司账号第一次直播。",
+        "time": "2026-05-09 09:00",
+        "meta": {
+          "date": "2026-05-09"
+        }
+      },
       {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "calendar-10",
+        "title": "小型拼盘舞台",
+        "body": "演出服自己保管。16:30 集合，17:00 彩排，19:00 演出。没有独立待机室。",
+        "time": "2026-05-10 09:00",
+        "meta": {
+          "date": "2026-05-10"
+        }
       }
     ],
     "instagram": [
       {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "debut-post",
+        "title": "AFTERGLOW · Small Light",
+        "sender": "afterglow.official",
+        "body": "2026.05.07。我们的第一束光。谢谢今天停下来听歌的人。",
+        "likes": 43,
+        "comments": [
+          "路过舞台被吸引了，歌很好听！",
+          "第五位妹妹叫什么呀",
+          "加油，慢慢来。"
+        ],
+        "time": "2026-05-07 22:15"
       },
       {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
-      }
-    ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "live-comment",
+        "title": "有人记住了你",
+        "sender": "smalllight_05",
+        "body": "昨天直播认认真真念名字的妹妹！今天也会去看舞台的。",
+        "likes": 7,
+        "hidden": true,
+        "time": "2026-05-10 08:00"
       }
     ]
   },
-  "variables": {},
-  "events": [],
-  "tests": []
+  "variables": {
+    "growth": true,
+    "day": 1,
+    "period": "上午",
+    "scene": "",
+    "feedback": "",
+    "vocal": 40,
+    "dance": 40,
+    "camera": 35,
+    "energy": 75,
+    "mood": 65,
+    "fans": 8,
+    "bond_hae": 25,
+    "bond_yun": 25,
+    "bond_seo": 25,
+    "bond_rin": 25
+  },
+  "events": [
+    {
+      "id": "chapter-start",
+      "label": "醒来的第一天",
+      "type": "start",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "宿舍只剩你和白允书。她戴着耳机反复听昨天的返送，桌上的面包已经凉了。今天上午，你想先做什么？"
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 敏真姐：先吃点东西，今天的安排发你了。"
+        }
+      ],
+      "next": [
+        "slot-0"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "slot-0",
+      "label": "今天的安排",
+      "type": "choice",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "day",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "上午"
+        },
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "宿舍只剩你和白允书。她戴着耳机反复听昨天的返送，桌上的面包已经凉了。今天上午，你想先做什么？"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "08:10"
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-05-08"
+        }
+      ],
+      "next": [
+        "option-0-0",
+        "option-0-1",
+        "option-0-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-0-0",
+      "label": "和允书练一遍副歌",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "她没有先评价，只把一只耳机递给你。「第二句，别急着进。」你们唱到窗外的施工声停下来。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-0-0",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "vocal",
+          "value": 9
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -10
+        },
+        {
+          "type": "increment",
+          "key": "bond_yun",
+          "value": 7
+        },
+        {
+          "type": "variable",
+          "key": "firstActivity",
+          "value": 0
+        }
+      ],
+      "next": [
+        "slot-1"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-0-1",
+      "label": "去练习室找瑞安",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "瑞安把你的位置用胶带重新贴了一遍。你终于知道昨天为什么总撞到她的手肘。「不是你反应慢，是我们没对齐。」"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-0-1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "dance",
+          "value": 9
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -12
+        },
+        {
+          "type": "increment",
+          "key": "bond_seo",
+          "value": 7
+        },
+        {
+          "type": "variable",
+          "key": "firstActivity",
+          "value": 1
+        }
+      ],
+      "next": [
+        "slot-1"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-0-2",
+      "label": "先吃早餐，给大家留一点",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你把最后两片面包装进饭盒。海温回来拿文件时停了停：「昨天你也没吃好吧？今天一起吃。」"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-0-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": 12
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 7
+        },
+        {
+          "type": "increment",
+          "key": "bond_hae",
+          "value": 7
+        },
+        {
+          "type": "variable",
+          "key": "firstActivity",
+          "value": 2
+        }
+      ],
+      "next": [
+        "slot-1"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "slot-1",
+      "label": "今天的安排",
+      "type": "choice",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "day",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "下午"
+        },
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "公司唯一一盏补光灯坏了。敏真姐拿着手机站在窗边：「今天只能拍一条。你来选，拍什么？」"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "14:00"
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-05-08"
+        }
+      ],
+      "next": [
+        "option-1-0",
+        "option-1-1",
+        "option-1-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-1-0",
+      "label": "拍一段清唱",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你没选最难的高音，挑了最适合自己的一句。允书在镜头外帮你起调，视频最后收进了她的一声轻笑。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-1-0",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "vocal",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "fans",
+          "value": 5
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -5
+        }
+      ],
+      "next": [
+        "slot-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-1-1",
+      "label": "和多凛拍双人短视频",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "多凛的转场总比音乐快半拍。拍到第五次你们都笑倒了，敏真姐说：「就用这个版本。」"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-1-1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 9
+        },
+        {
+          "type": "increment",
+          "key": "fans",
+          "value": 7
+        },
+        {
+          "type": "increment",
+          "key": "bond_rin",
+          "value": 7
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -8
+        }
+      ],
+      "next": [
+        "slot-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-1-2",
+      "label": "拍练习室的一小段日常",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你把镜头转向贴满胶带的地板和大家的旧运动鞋。海温看了成片：「原来我们这里也能拍得挺好看。」"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-1-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 5
+        },
+        {
+          "type": "increment",
+          "key": "fans",
+          "value": 3
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 6
+        },
+        {
+          "type": "increment",
+          "key": "bond_hae",
+          "value": 5
+        }
+      ],
+      "next": [
+        "slot-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "slot-2",
+      "label": "今天的安排",
+      "type": "choice",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "day",
+          "value": 1
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "晚上"
+        },
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "宿舍的洗衣机还在转。多凛端着两杯热水来敲门：「要不要去楼梯间坐五分钟？那里比较安静。」"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "19:00"
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-05-08"
+        }
+      ],
+      "next": [
+        "option-2-0",
+        "option-2-1",
+        "option-2-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-2-0",
+      "label": "和她聊聊出道后的感受",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "她说今天一直刷新播放量，刷新到有点不认识那个数字。你们约好今晚都不再看。水凉了，话还没说完。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-2-0",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "bond_rin",
+          "value": 12
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 10
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": 3
+        }
+      ],
+      "next": [
+        "callback-yun",
+        "callback-seo",
+        "callback-hae",
+        "slot-3"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-2-1",
+      "label": "留下来整理明天的准备",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你把舞台视频停在自己的走位上，写下三个想改的地方。海温路过，提醒你写完就睡，不必一次改完。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-2-1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "dance",
+          "value": 6
+        },
+        {
+          "type": "increment",
+          "key": "vocal",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -10
+        },
+        {
+          "type": "increment",
+          "key": "bond_hae",
+          "value": 3
+        }
+      ],
+      "next": [
+        "callback-yun",
+        "callback-seo",
+        "callback-hae",
+        "slot-3"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-2-2",
+      "label": "告诉她今天想早点睡",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "「那我替你喝两杯？」她笑了一下，把其中一杯放在你桌上。你第一次在闹钟响起前就睡着了。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-2-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": 20
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 9
+        },
+        {
+          "type": "increment",
+          "key": "bond_rin",
+          "value": 3
+        }
+      ],
+      "next": [
+        "callback-yun",
+        "callback-seo",
+        "callback-hae",
+        "slot-3"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "slot-3",
+      "label": "今天的安排",
+      "type": "choice",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "day",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "上午"
+        },
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "电台试录提前了半小时。车里，敏真姐把采访提纲发给大家。最后一题是：用一句话介绍自己。"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "08:10"
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-05-09"
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 工作群：第 2 天的行程已确认，记得检查消息。"
+        }
+      ],
+      "next": [
+        "option-3-0",
+        "option-3-1",
+        "option-3-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-3-0",
+      "label": "认真准备一个简短回答",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你删掉了所有「努力」「梦想」的套话，写下第一次想站上舞台的瞬间。敏真姐读完，只说：「这句像你。」"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-3-0",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -5
+        }
+      ],
+      "next": [
+        "slot-4"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-3-1",
+      "label": "请海温陪自己练习",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "她没有替你写答案，而是追问：「那你自己最想让别人记住什么？」你终于把那句话说顺了。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-3-1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 5
+        },
+        {
+          "type": "increment",
+          "key": "bond_hae",
+          "value": 10
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -4
+        }
+      ],
+      "next": [
+        "slot-4"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-3-2",
+      "label": "和多凛做即兴问答",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "她突然举起矿泉水瓶当话筒：「请问今天出门最先忘带什么？」你们越答越离谱，紧张感倒是散了。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-3-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 5
+        },
+        {
+          "type": "increment",
+          "key": "bond_rin",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 9
+        }
+      ],
+      "next": [
+        "slot-4"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "slot-4",
+      "label": "今天的安排",
+      "type": "choice",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "day",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "下午"
+        },
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "试录结束，制作人说可以额外录一小段。时间只够一次，其他成员把位置让给了你。"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "14:00"
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-05-09"
+        }
+      ],
+      "next": [
+        "option-4-0",
+        "option-4-1",
+        "option-4-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-4-0",
+      "label": "唱出道曲的副歌",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你摘下一边耳机，让呼吸慢下来。允书站在玻璃外，抬手给你数拍。这一次你没有抢第一句。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-4-0",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "vocal",
+          "value": 7
+        },
+        {
+          "type": "increment",
+          "key": "fans",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -10
+        },
+        {
+          "type": "increment",
+          "key": "bond_yun",
+          "value": 5
+        },
+        {
+          "type": "variable",
+          "key": "recording",
+          "value": 0
+        }
+      ],
+      "next": [
+        "slot-5"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-4-1",
+      "label": "展示练习过的舞蹈片段",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "场地比练习室窄，你缩小了转身的幅度。瑞安在镜头后很轻地点了一下头。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-4-1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "dance",
+          "value": 7
+        },
+        {
+          "type": "increment",
+          "key": "fans",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -12
+        },
+        {
+          "type": "increment",
+          "key": "bond_seo",
+          "value": 5
+        },
+        {
+          "type": "variable",
+          "key": "recording",
+          "value": 1
+        }
+      ],
+      "next": [
+        "slot-5"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-4-2",
+      "label": "邀请大家一起录团体问候",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "五个人挤进同一个取景框，第一次还是没喊齐。制作人保留了重来前那一秒：「这个也挺有意思。」"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-4-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 5
+        },
+        {
+          "type": "increment",
+          "key": "fans",
+          "value": 3
+        },
+        {
+          "type": "increment",
+          "key": "bond_hae",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "bond_yun",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "bond_seo",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "bond_rin",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 6
+        },
+        {
+          "type": "variable",
+          "key": "recording",
+          "value": 2
+        }
+      ],
+      "next": [
+        "slot-5"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "slot-5",
+      "label": "今天的安排",
+      "type": "choice",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "day",
+          "value": 2
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "晚上"
+        },
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "公司账号第一次直播，在线人数停在二十几。屏幕上有人问：「今天有没有发生一件开心的事？」"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "19:00"
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-05-09"
+        }
+      ],
+      "next": [
+        "option-5-0",
+        "option-5-1",
+        "option-5-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-5-0",
+      "label": "讲一件和队友有关的小事",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你讲起坏掉的补光灯。多凛补了几个细节，大家越讲越热闹。有个账号留言：「你们关系真好，明天还来。」"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-5-0",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "fans",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 5
+        },
+        {
+          "type": "increment",
+          "key": "bond_rin",
+          "value": 5
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 6
+        }
+      ],
+      "next": [
+        "live-reply",
+        "slot-6"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-5-1",
+      "label": "认真读出几个观众的昵称",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你把每个名字都念得很慢。有人发了三个感叹号：「第一次被爱豆记住！」下播后你还记得其中一个名字。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-5-1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "fans",
+          "value": 10
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 6
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -5
+        }
+      ],
+      "next": [
+        "live-reply",
+        "slot-6"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-5-2",
+      "label": "坦白自己有点紧张",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "允书轻轻把水杯推过来。弹幕多了几条「慢慢说」。你没有突然变得很会讲话，但最后说出了想说的事。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-5-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 10
+        },
+        {
+          "type": "increment",
+          "key": "bond_yun",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "fans",
+          "value": 4
+        }
+      ],
+      "next": [
+        "live-reply",
+        "slot-6"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "slot-6",
+      "label": "今天的安排",
+      "type": "choice",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "day",
+          "value": 3
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "上午"
+        },
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "今天是出道后的第二场舞台。演出服挂在门边，客厅里有人在练习开场动作，有人在找安全别针。"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "08:10"
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-05-10"
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 工作群：第 3 天的行程已确认，记得检查消息。"
+        }
+      ],
+      "next": [
+        "option-6-0",
+        "option-6-1",
+        "option-6-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-6-0",
+      "label": "和瑞安再过一遍走位",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "她把音量调低，只和你走队形。「这里我先让，你不用躲。」昨天卡住的半拍忽然顺了。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-6-0",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "dance",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "bond_seo",
+          "value": 10
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -12
+        }
+      ],
+      "next": [
+        "slot-7"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-6-1",
+      "label": "和允书做轻量开嗓",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "她拦住你想再唱一遍高音的念头。「今天留一点给舞台。」你们从低处慢慢唱上去，然后按时停下。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-6-1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "vocal",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "bond_yun",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -5
+        }
+      ],
+      "next": [
+        "slot-7"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-6-2",
+      "label": "检查装备，然后好好休息",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你把别针、耳返和备用袜子一件件放进包里。海温把备用电池也放过来：「那这个交给你。」"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-6-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": 15
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 7
+        },
+        {
+          "type": "increment",
+          "key": "bond_hae",
+          "value": 8
+        }
+      ],
+      "next": [
+        "slot-7"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "slot-7",
+      "label": "今天的安排",
+      "type": "choice",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "day",
+          "value": 3
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "下午"
+        },
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "彩排时耳返里突然响起一阵杂音。工作人员还在调试，下一组已经在旁边等。你想先怎么做？"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "14:00"
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-05-10"
+        }
+      ],
+      "next": [
+        "option-7-0",
+        "option-7-1",
+        "option-7-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-7-0",
+      "label": "说明情况，请求再试一次",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "敏真姐马上走到调音台旁。第二次返送正常了。她回来时说：「遇到设备问题要说，不用先怀疑自己。」"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-7-0",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "camera",
+          "value": 3
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -3
+        }
+      ],
+      "next": [
+        "slot-8"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-7-1",
+      "label": "和队友确认手势与拍点",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "海温把几个人叫到一起，瑞安用手指敲出开头的节拍。你们约定好，看不到彼此时也知道怎么接。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-7-1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "dance",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "bond_hae",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "bond_seo",
+          "value": 6
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -6
+        }
+      ],
+      "next": [
+        "slot-8"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-7-2",
+      "label": "先稳定呼吸，低声过一遍",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你退到幕布旁，让呼吸跟着熟悉的节拍。允书没有说话，只站在旁边陪你数完那八拍。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-7-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "vocal",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 7
+        },
+        {
+          "type": "increment",
+          "key": "bond_yun",
+          "value": 6
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": 2
+        }
+      ],
+      "next": [
+        "slot-8"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "slot-8",
+      "label": "今天的安排",
+      "type": "choice",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "day",
+          "value": 3
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "晚上"
+        },
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "离正式上台还有十分钟。幕布外面有人在试麦，你看见第一排站着几个拿着手机等候的人。"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "19:00"
+        },
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-05-10"
+        }
+      ],
+      "next": [
+        "option-8-0",
+        "option-8-1",
+        "option-8-2"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-8-0",
+      "label": "最后再确认一次队形",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你伸手碰了碰站在前面的瑞安。她回头，默默替你把衣领整理好。五个人依次确认完位置。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-8-0",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "dance",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "bond_seo",
+          "value": 5
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -6
+        }
+      ],
+      "next": [
+        "stage-tired",
+        "stage-practice",
+        "stage-team"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-8-1",
+      "label": "把注意力放在第一句歌词上",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "你不再想镜头会拍到哪边脸，只在心里慢慢唱完第一句。掌心仍然出汗，但呼吸比刚才稳。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-8-1",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "vocal",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 3
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": -4
+        }
+      ],
+      "next": [
+        "stage-tired",
+        "stage-practice",
+        "stage-team"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "option-8-2",
+      "label": "和大家碰一下拳",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "feedback",
+          "value": "多凛先伸出手，海温把最后一只手压上来。「今天下台再决定吃什么。」你们笑着应了一声。"
+        },
+        {
+          "type": "unlock",
+          "key": "reply-8-2",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "kakao",
+          "value": "KakaoTalk · 有一条新的私聊，收起安排后可以查看。"
+        },
+        {
+          "type": "increment",
+          "key": "bond_hae",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "bond_yun",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "bond_seo",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "bond_rin",
+          "value": 4
+        },
+        {
+          "type": "increment",
+          "key": "mood",
+          "value": 8
+        },
+        {
+          "type": "increment",
+          "key": "energy",
+          "value": 2
+        }
+      ],
+      "next": [
+        "stage-tired",
+        "stage-practice",
+        "stage-team"
+      ],
+      "conditions": []
+    },
+    {
+      "id": "callback-yun",
+      "label": "清晨的私聊",
+      "type": "action",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "callback-message-yun",
+          "value": true
+        }
+      ],
+      "next": [],
+      "conditions": [
+        {
+          "key": "firstActivity",
+          "op": "eq",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "callback-seo",
+      "label": "清晨的私聊",
+      "type": "action",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "callback-message-seo",
+          "value": true
+        }
+      ],
+      "next": [],
+      "conditions": [
+        {
+          "key": "firstActivity",
+          "op": "eq",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "callback-hae",
+      "label": "清晨的私聊",
+      "type": "action",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "callback-message-hae",
+          "value": true
+        }
+      ],
+      "next": [],
+      "conditions": [
+        {
+          "key": "firstActivity",
+          "op": "eq",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "live-reply",
+      "label": "直播之后",
+      "type": "action",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "live-comment",
+          "value": true
+        }
+      ],
+      "next": [],
+      "conditions": [
+        {
+          "key": "fans",
+          "op": "gt",
+          "value": 22
+        }
+      ]
+    },
+    {
+      "id": "stage-tired",
+      "label": "灯还亮着",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "音乐响起后，你比彩排时更吃力，但听见队友在换气的空隙里接住了你。下台时海温把水递过来，敏真姐重新排了明天的练习量。今天没有把一切做好，可你没有被留在台上。回程的车里，你终于放心睡了一会儿。"
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "收工"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "22:30"
+        },
+        {
+          "type": "unlock",
+          "key": "chapter-note-energy",
+          "value": true
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "灯还亮着"
+        }
+      ],
+      "next": [],
+      "conditions": [
+        {
+          "key": "energy",
+          "op": "lt",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "id": "stage-practice",
+      "label": "那半拍终于对上",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "你在那个曾经总慢半拍的位置站稳了。转头时，瑞安已经在下一个点等你。台下有人喊出团名，声音不大，但五个人都听见了。视频回看时你发现，自己不再一直盯着地板。"
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "收工"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "22:30"
+        },
+        {
+          "type": "unlock",
+          "key": "chapter-note-practice",
+          "value": true
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "那半拍终于对上"
+        }
+      ],
+      "next": [],
+      "conditions": [
+        {
+          "key": "energy",
+          "op": "gt",
+          "value": 34
+        },
+        {
+          "key": "dance",
+          "op": "gt",
+          "value": 58
+        }
+      ]
+    },
+    {
+      "id": "stage-team",
+      "label": "有人叫出了你的名字",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "scene",
+          "value": "舞台结束前，你抬头看见第一排的人朝你挥手。她叫的是你的名字。下台以后，多凛坚持说她也听见了，允书说让她先把麦摘了再激动。你们在回程路上用一份外卖庆祝了第二场演出。"
+        },
+        {
+          "type": "variable",
+          "key": "period",
+          "value": "收工"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "22:30"
+        },
+        {
+          "type": "unlock",
+          "key": "chapter-note-team",
+          "value": true
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "有人叫出了你的名字"
+        }
+      ],
+      "next": [],
+      "conditions": [
+        {
+          "key": "energy",
+          "op": "gt",
+          "value": 34
+        },
+        {
+          "key": "dance",
+          "op": "lt",
+          "value": 59
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "成长路径-1",
+      "steps": [
+        {
+          "choose": "option-0-0"
+        },
+        {
+          "choose": "option-1-0"
+        },
+        {
+          "choose": "option-2-0"
+        },
+        {
+          "choose": "option-3-0"
+        },
+        {
+          "choose": "option-4-0"
+        },
+        {
+          "choose": "option-5-0"
+        },
+        {
+          "choose": "option-6-0"
+        },
+        {
+          "choose": "option-7-0"
+        },
+        {
+          "choose": "option-8-0"
+        }
+      ],
+      "ending": "灯还亮着",
+      "expectUnlocked": [
+        "reply-0-0",
+        "reply-1-0",
+        "reply-2-0",
+        "reply-3-0",
+        "reply-4-0",
+        "reply-5-0",
+        "reply-6-0",
+        "reply-7-0",
+        "reply-8-0",
+        "chapter-note-energy",
+        "callback-message-yun"
+      ]
+    },
+    {
+      "name": "成长路径-2",
+      "steps": [
+        {
+          "choose": "option-0-1"
+        },
+        {
+          "choose": "option-1-1"
+        },
+        {
+          "choose": "option-2-1"
+        },
+        {
+          "choose": "option-3-1"
+        },
+        {
+          "choose": "option-4-1"
+        },
+        {
+          "choose": "option-5-1"
+        },
+        {
+          "choose": "option-6-1"
+        },
+        {
+          "choose": "option-7-1"
+        },
+        {
+          "choose": "option-8-1"
+        }
+      ],
+      "ending": "灯还亮着",
+      "expectUnlocked": [
+        "reply-0-1",
+        "reply-1-1",
+        "reply-2-1",
+        "reply-3-1",
+        "reply-4-1",
+        "reply-5-1",
+        "reply-6-1",
+        "reply-7-1",
+        "reply-8-1",
+        "chapter-note-energy",
+        "callback-message-seo"
+      ]
+    },
+    {
+      "name": "成长路径-3",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-4",
+      "steps": [
+        {
+          "choose": "option-0-0"
+        },
+        {
+          "choose": "option-1-1"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-0"
+        },
+        {
+          "choose": "option-4-1"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-0"
+        },
+        {
+          "choose": "option-7-1"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "那半拍终于对上",
+      "expectUnlocked": [
+        "reply-0-0",
+        "reply-1-1",
+        "reply-2-2",
+        "reply-3-0",
+        "reply-4-1",
+        "reply-5-2",
+        "reply-6-0",
+        "reply-7-1",
+        "reply-8-2",
+        "chapter-note-practice",
+        "callback-message-yun"
+      ]
+    },
+    {
+      "name": "成长路径-5",
+      "steps": [
+        {
+          "choose": "option-0-1"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-0"
+        },
+        {
+          "choose": "option-3-1"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-0"
+        },
+        {
+          "choose": "option-6-1"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-0"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-1",
+        "reply-1-2",
+        "reply-2-0",
+        "reply-3-1",
+        "reply-4-2",
+        "reply-5-0",
+        "reply-6-1",
+        "reply-7-2",
+        "reply-8-0",
+        "chapter-note-team",
+        "callback-message-seo"
+      ]
+    },
+    {
+      "name": "成长路径-6",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-0"
+        },
+        {
+          "choose": "option-2-1"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-0"
+        },
+        {
+          "choose": "option-5-1"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-0"
+        },
+        {
+          "choose": "option-8-1"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-0",
+        "reply-2-1",
+        "reply-3-2",
+        "reply-4-0",
+        "reply-5-1",
+        "reply-6-2",
+        "reply-7-0",
+        "reply-8-1",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-7",
+      "steps": [
+        {
+          "choose": "option-0-0"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-0",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-yun"
+      ]
+    },
+    {
+      "name": "成长路径-8",
+      "steps": [
+        {
+          "choose": "option-0-1"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-1",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-seo"
+      ]
+    },
+    {
+      "name": "成长路径-9",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-10",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-0"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-0",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-11",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-1"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-1",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-12",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-13",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-0"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-0",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-14",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-1"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-1",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-15",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-16",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-0"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-0",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-17",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-1"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-1",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-18",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-19",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-0"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-0",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-20",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-1"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-1",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-21",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-22",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-0"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-0",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-23",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-1"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-1",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-24",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-25",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-0"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-0",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-26",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-1"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-1",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-27",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-28",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-0"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-0",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-29",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-1"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-1",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-30",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-31",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-0"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-0",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-32",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-1"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-1",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    },
+    {
+      "name": "成长路径-33",
+      "steps": [
+        {
+          "choose": "option-0-2"
+        },
+        {
+          "choose": "option-1-2"
+        },
+        {
+          "choose": "option-2-2"
+        },
+        {
+          "choose": "option-3-2"
+        },
+        {
+          "choose": "option-4-2"
+        },
+        {
+          "choose": "option-5-2"
+        },
+        {
+          "choose": "option-6-2"
+        },
+        {
+          "choose": "option-7-2"
+        },
+        {
+          "choose": "option-8-2"
+        }
+      ],
+      "ending": "有人叫出了你的名字",
+      "expectUnlocked": [
+        "reply-0-2",
+        "reply-1-2",
+        "reply-2-2",
+        "reply-3-2",
+        "reply-4-2",
+        "reply-5-2",
+        "reply-6-2",
+        "reply-7-2",
+        "reply-8-2",
+        "chapter-note-team",
+        "callback-message-hae"
+      ]
+    }
+  ]
 }
